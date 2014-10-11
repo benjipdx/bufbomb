@@ -1,0 +1,15 @@
+FF FF FF FF 
+FF FF FF FF 
+FF FF FF FF
+FF FF FF FF
+FF FF FF FF
+FF FF FF FF
+FF FF FF FF
+FF FF FF FF /* der characters */
+BB BB BB BB /* integer in test */
+DD DD DD DD /* integer in test */
+AA AA AA AA /* old ebp for test */
+22 8C 04 08 /* fizz()  return address */
+F8 8B 04 08 /* fizz looks for arguments */
+96 E0 36 20 /* cookieeeeeee */
+

